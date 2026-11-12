@@ -64,10 +64,12 @@ void main() {
         }
         break;
 
+
       // 3. SIMULATE TIME PROGRESSION (UPDATE ETAs)
       case "3":
         stdout.write(BusTrackerConfig.timePrompt);
         int? minutesPassed = int.tryParse(stdin.readLineSync() ?? "");
+
 
         if (minutesPassed == null || minutesPassed <= 0) {
           print(BusTrackerConfig.invalidTimeMsg);
@@ -91,6 +93,7 @@ void main() {
           print(BusTrackerConfig.updatedMsg);
         }
         break;
+        
 
       // 4. ADD NEW BUS TO ROUTE
       case "4":

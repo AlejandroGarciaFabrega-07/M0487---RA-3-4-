@@ -26,6 +26,8 @@ void main() {
 
     String? choice = stdin.readLineSync();
 
+
+
     switch (choice) {
       
       // 1. VIEW ALL ROOMS STATUS
