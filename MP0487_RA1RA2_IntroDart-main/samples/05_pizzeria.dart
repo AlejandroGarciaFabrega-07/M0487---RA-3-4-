@@ -132,6 +132,7 @@ void main() {
           print("${PizzaConfig.grandTotalLabel}${grandTotal.toStringAsFixed(2)}");
           print(PizzaConfig.receiptBorder);
           print(PizzaConfig.thankYouMsg);
+          
 
           // Flush current order data mapping strings back to baseline array parameters
           cartPizzas.clear();
